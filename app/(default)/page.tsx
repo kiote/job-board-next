@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Home - GetReferral',
-  description: 'Page description',
+  description: 'We have referrals from the best companies in the world for you',
 }
 import Hero from '@/components/hero'
 import PressLogos from '@/components/press-logos'
