@@ -19,7 +19,7 @@ export default function Testimonials() {
             </div>
             <figure>
               <blockquote className="text-lg font-bold m-0 pb-1">
-                <p>Hiring a Senior Laravel engineer through JobBoard has been incredible. The best job board experience we've ever had.</p>
+                <p>Hiring a Senior Laravel engineer through GetReferral has been incredible. The best job board experience we've ever had.</p>
               </blockquote>
               <figcaption className="text-sm font-medium">
                 Patrick Metzger, CEO{' '}
@@ -41,7 +41,7 @@ export default function Testimonials() {
             </div>
             <figure>
               <blockquote className="text-lg font-bold m-0 pb-1">
-                <p>Hiring a Senior Laravel engineer through JobBoard has been incredible. The best job board experience we've ever had.</p>
+                <p>Hiring a Senior Laravel engineer through GetReferral has been incredible. The best job board experience we've ever had.</p>
               </blockquote>
               <figcaption className="text-sm font-medium">
                 Annie Patrick, CEO{' '}

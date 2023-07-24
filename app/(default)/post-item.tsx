@@ -40,7 +40,7 @@ export default function PostItem({ ...props }) {
                 </a>
               </div>
             </div>
-            <div className="min-w-[120px] flex items-center lg:justify-end space-x-3 lg:space-x-0">
+            {/* <div className="min-w-[120px] flex items-center lg:justify-end space-x-3 lg:space-x-0">
               <div className="lg:hidden group-hover:lg:block">
                 <Link className="btn-sm py-1.5 px-3 text-white bg-indigo-500 hover:bg-indigo-600 group shadow-sm" href={`/posts/${props.id}`}>
                   Apply Now{' '}
@@ -50,7 +50,7 @@ export default function PostItem({ ...props }) {
                 </Link>
               </div>
               <div className="group-hover:lg:hidden text-sm italic text-gray-500">{props.date}</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

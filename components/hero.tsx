@@ -26,16 +26,16 @@ export default function Hero() {
               Join the best tech companies <span className="font-nycd text-indigo-500 font-normal">with referral</span>
             </h1>
             <p className="text-lg text-gray-500 mb-8">
-              Our landing page template works on all devices, so you only have to set it
-              <br className="hidden md:block" /> up once, and get beautiful results forever.
+            We have referrals from the best companies in the world for you. 
+              <br className="hidden md:block" /> You can find a referral to any of them in a few clicks.
             </p>
             {/* Button + Avatars */}
             <div className="sm:flex sm:items-center sm:justify-center md:justify-start space-y-6 sm:space-y-0 sm:space-x-5">
-              <div>
+              {/* <div>
                 <Link className="btn text-white bg-indigo-500 hover:bg-indigo-600 shadow-sm" href="/post-a-job">
                   Post a job - $299
                 </Link>
-              </div>
+              </div> */}
               <div className="sm:flex sm:items-center sm:justify-center space-y-2 sm:space-y-0 sm:space-x-3">
                 <div className="inline-flex -space-x-3 -ml-0.5">
                   <Image
@@ -68,7 +68,7 @@ export default function Hero() {
                   />
                 </div>
                 <div className="text-sm text-gray-500 font-medium">
-                  Reach <span className="text-indigo-500">100K+</span> Prefessionals
+                  Reach <span className="text-indigo-500">100K+</span> Referrals
                 </div>
               </div>
             </div>

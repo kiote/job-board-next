@@ -123,12 +123,6 @@ export default function Sidebar() {
                     <span className="text-sm text-gray-600 ml-2">&gt; $100K</span>
                   </label>
                 </li>
-                <li>
-                  <label className="flex items-center">
-                    <input type="checkbox" className="form-checkbox" />
-                    <span className="text-sm text-gray-600 ml-2">Drawing / Painting</span>
-                  </label>
-                </li>
               </ul>
             </div>
             {/* Group 4 */}
@@ -137,10 +131,10 @@ export default function Sidebar() {
               <label className="sr-only">Location</label>
               <select className="form-select w-full">
                 <option>Anywhere</option>
-                <option>London</option>
-                <option>San Francisco</option>
-                <option>New York</option>
-                <option>Berlin</option>
+                <option>Estonia</option>
+                <option>Finland</option>
+                <option>Latvia</option>
+                <option>Germany</option>
               </select>
             </div>
           </div>
