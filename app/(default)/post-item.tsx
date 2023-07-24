@@ -19,7 +19,7 @@ export default function PostItem({ ...props }) {
                 )}
               </div>
               <div className="mb-2">
-                <Link className="text-lg text-gray-800 font-bold" href={`/posts/${props.id}`}>
+                <Link className="text-lg text-gray-800 font-bold" href="#">
                   {props.title}
                 </Link>
               </div>

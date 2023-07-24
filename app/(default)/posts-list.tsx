@@ -27,16 +27,18 @@ export default async function PostsList() {
       {/* List container */}
       <div className="flex flex-col">
 
+       {/* Newletter CTA */}
+       <div className="py-8 border-b border-gray-200 -order-1">
+          <Newsletter />
+        </div>
+
         {posts.map(post => {
           return (
             <PostItem key={post.id} {...post} />
           )
         })}
 
-        {/* Newletter CTA */}
-        <div className="py-8 border-b border-gray-200 -order-1">
-          <Newsletter />
-        </div>
+ 
 
       </div>
     </div>

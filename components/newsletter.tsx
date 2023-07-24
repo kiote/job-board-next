@@ -5,8 +5,8 @@ export default function Newsletter() {
         className="absolute inset-0 rounded-xl bg-gray-50 border border-gray-200 -rotate-1 group-hover:rotate-0 transition duration-150 ease-in-out -z-10"
         aria-hidden="true"
       />
-      <div className="font-nycd text-xl text-indigo-500 mb-1">Find a referral to a company of your dreams</div>
-      <div className="text-2xl font-bold mb-5">We are opening soon, let's keep in touch!</div>
+      <div className="font-nycd text-xl text-indigo-500 mb-1">Sign up now and let our referral system work for you!</div>
+      <div className="text-2xl font-bold mb-5">We will notify you when we are open</div>
       <form className="inline-flex max-w-sm">
         <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-none">
           <input type="email" className="form-input py-1.5 w-full mb-2 sm:mb-0 sm:mr-2" placeholder="Your email" aria-label="Your email" />
