@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Home - JobBoard',
+  title: 'Home - GetReferral',
   description: 'Page description',
 }
 import Hero from '@/components/hero'
