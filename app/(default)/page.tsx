@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <PressLogos />
+      {/* <PressLogos /> */}
 
       {/*  Page content */}
       <section>

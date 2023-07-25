@@ -5,6 +5,7 @@ Note: This code includes an example of how to fetch data from an external JSON f
 import getAllPosts from '@/lib/getAllPosts'
 import PostItem from './post-item'
 import Newsletter from '@/components/newsletter'
+import HowItWorks from '@/components/how-it-works'
 
 interface Post {
   id: number,
@@ -23,14 +24,18 @@ export default async function PostsList() {
 
   return (
     <div className="pb-8 md:pb-16">
-      <h2 className="text-3xl font-bold font-inter mb-10">Latest jobs</h2>
-      {/* List container */}
-      <div className="flex flex-col">
-
+      <HowItWorks />
        {/* Newletter CTA */}
        <div className="py-8 border-b border-gray-200 -order-1">
           <Newsletter />
         </div>
+      <h2 className="text-3xl font-bold font-inter mb-10">New job openings</h2>
+      {/* List container */}
+      <div className="flex flex-col">
+
+        
+
+      
 
         {posts.map(post => {
           return (
